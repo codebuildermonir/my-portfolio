@@ -1,4 +1,5 @@
-
+import { LuFacebook,  LuInstagram, LuLinkedin } from "react-icons/lu";
+import { FaGithub } from "react-icons/fa";
 
 const Header = () => {
       return (
@@ -11,6 +12,38 @@ const Header = () => {
 
                   <h1 className="md:text-3xl font-semibold text-white  ">Front End Developer (MERN) </h1>
                   <p className="text-base">{`I love to visualize ideas and make them come alive on a website. If you looking for a designer to build your Brand And Grow Your Business ? Let's shake hands with Monir.`}</p>
+                  {/* Resume button */}
+
+                    {/* <div className="navbar-start hidden md:block ">
+                    <a className="btn   text-white  bg-[#FF014F] border-none hover:bg-[#FF014F] hover:-translate-y-1.5">DOWNLOAD MY CV</a>
+                    </div>
+ */}
+                    {/* Find use section */}
+
+                    <div>
+                         <p className="mb-8">FIND WITH ME</p>
+                         <div className=" grid gap-4 grid-cols-3   w-40 ">
+                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                            <a href="https://www.linkedin.com/in/codebuildermoni/"> <LuLinkedin className="text-lg  " ></LuLinkedin></a>
+                             </h1>
+                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                            <a href="https://www.facebook.com/fayhadahmed.monir/"> <LuFacebook className="text-lg  " ></LuFacebook></a>
+                             </h1>
+                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                            <a href=""> <LuInstagram className="text-lg  " ></LuInstagram></a>
+                             </h1>
+                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                            <a href="https://github.com/codebuildermonir/codebuildermonir"> <FaGithub className="text-lg  " ></FaGithub></a>
+                             </h1>
+                            
+
+                         </div>
+
+
+
+                    </div>
+
+
 
                  </div>
 

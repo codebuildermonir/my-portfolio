@@ -79,7 +79,7 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-start hidden md:block ">
-    <a className="btn w-28    bg-[#FF014F] border-none hover:bg-[#FF014F] hover:-translate-y-1.5">Button</a>
+    <a className="btn  text-white   bg-[#FF014F] border-none hover:bg-[#FF014F] hover:-translate-y-1.5">DOWNLOAD MY CV</a>
   </div>
 </div>
                   
