@@ -13,12 +13,15 @@ const NavBar = () => {
       </li>
   
      <li className="md:text-lg z-40 text-[#FFFFFF] ">
-      <NavLink to={'/header'} 
-      className={({ isActive, isPending }) =>
+      
+      <a href="" className={({ isActive, isPending }) =>
       isPending ? "pending" : isActive ? " text-[#ffffff] underline " : ""
-      }
-      >About
-      </NavLink>
+      }>
+      
+      
+      About
+     
+      </a>
       </li>
   
      <li className="md:text-lg z-40 text-[#FFFFFF] ">
