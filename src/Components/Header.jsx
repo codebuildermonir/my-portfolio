@@ -1,6 +1,7 @@
 import { LuFacebook,  LuInstagram, LuLinkedin } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 
+
 const Header = () => {
       return (
            <div className="bg-[#070105] py-20">
@@ -25,16 +26,16 @@ const Header = () => {
                          <p className="mb-8">FIND WITH ME</p>
                          <div className=" grid gap-4 grid-cols-3   w-40 ">
                              <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
-                            <a href="https://www.linkedin.com/in/codebuildermoni/"> <LuLinkedin className="text-lg  " ></LuLinkedin></a>
+                            <a href="https://www.linkedin.com/in/codebuildermoni/"> <LuLinkedin className="text-xl text-[#c4cfde]  " ></LuLinkedin></a>
                              </h1>
                              <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
-                            <a href="https://www.facebook.com/fayhadahmed.monir/"> <LuFacebook className="text-lg  " ></LuFacebook></a>
+                            <a href="https://www.facebook.com/fayhadahmed.monir/"> <LuFacebook className="text-xl text-[#c4cfde]  " ></LuFacebook></a>
                              </h1>
                              <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
-                            <a href=""> <LuInstagram className="text-lg  " ></LuInstagram></a>
+                            <a href=""> <LuInstagram className="text-xl text-[#c4cfde]  " ></LuInstagram></a>
                              </h1>
                              <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
-                            <a href="https://github.com/codebuildermonir/codebuildermonir"> <FaGithub className="text-lg  " ></FaGithub></a>
+                            <a href="https://github.com/codebuildermonir/codebuildermonir"> <FaGithub className="text-xl text-[#c4cfde]  " ></FaGithub></a>
                              </h1>
                             
 
@@ -43,6 +44,7 @@ const Header = () => {
 
 
                     </div>
+                    
 
 
 

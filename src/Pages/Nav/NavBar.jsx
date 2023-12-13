@@ -38,6 +38,14 @@ const NavBar = () => {
       className={({ isActive, isPending }) =>
       isPending ? "pending" : isActive ? " text-[#ffffff] underline " : ""
       }
+      >Project
+      </NavLink>
+      </li>
+     <li className="md:text-lg z-40 text-[#FFFFFF] ">
+      <NavLink to={'/services'} 
+      className={({ isActive, isPending }) =>
+      isPending ? "pending" : isActive ? " text-[#ffffff] underline " : ""
+      }
       >Services
       </NavLink>
       </li>
