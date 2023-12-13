@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Header = () => {
       return (
            <div className="bg-[#070105] py-20">
-             <div className=" gap-4 md:flex items-center max-w-5xl mx-auto   ">
+             <div className=" gap-4 md:flex items-center max-w-6xl mx-auto ">
                
                   {/* Content div */}
                  <div className="flex-1 px-2 text-white justify-center   space-y-4 ">

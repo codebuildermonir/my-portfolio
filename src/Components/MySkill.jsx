@@ -9,11 +9,11 @@ import firebase from '../assets/firebase.png'
 const MySkill = () => {
       return (
             <div className="bg-[#212428] ">
-                 <div className='max-w-5xl mx-auto px-4 '>
+                 <div className='max-w-6xl mx-auto px-4 '>
                  <h1 className="text-[#c4cfde] md:text-5xl font-semibold " >As a <span className='text-[#FF014F]'>Front End Developer </span>{` I'm good`}<br></br> at using:</h1>
                  </div>
 
-            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-center py-20 gap-4" >
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-center py-20 gap-4" >
             <div className="card md:w-60 md:h-40 justify-center items-center bg-[#212428] hover:bg-[#1C1E22] content-shadow">
             <div className="card-body text-[#c4cfde]  hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 ">
             <img className='md:w-20' src={html} alt=""  />

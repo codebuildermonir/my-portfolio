@@ -10,10 +10,10 @@ const Contact = () => {
             <div className="bg-[#212428] ">
                   <h1 className='text-center text-6xl font-bold mb-12 text-[#c4cfde]'>Contact With Me</h1>
                  
-<div className="max-w-5xl mx-auto px-4 gap-4 md:flex items-center">
+<div className="max-w-6xl mx-auto   gap-4 md:flex items-center">
 
       {/* Content section */}
-      <div className="  content-shadow rounded-md flex-1 ">
+      <div className="  content-shadow rounded-md flex-1 mb-20 ">
             <div className='p-6  text-[#878e99] md:text-lg font-medium space-y-3 '>
                   <img className='rounded-md' src={contact} alt="" />
                   <h1 className='md:text-3xl font-bold text-[#c4cfde]'>MONIR HOSSAIN</h1>
@@ -38,7 +38,7 @@ const Contact = () => {
 
 
 
-<div className="hero min-h-screen flex-1  ">
+<div className="hero min-h-screen flex-1 mb-20 ">
 <div className="hero-content flex-col lg:flex-row-reverse">
 
 <div className="  focus:outline-[#FF014F] shrink-0 w-full  content-shadow bg-[#212428]">
