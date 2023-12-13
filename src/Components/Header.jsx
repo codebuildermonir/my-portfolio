@@ -5,6 +5,7 @@ const Header = () => {
       return (
            <div className="bg-[#070105] py-20">
              <div className=" gap-4 md:flex items-center max-w-5xl mx-auto   ">
+               
                   {/* Content div */}
                  <div className="flex-1 px-2 text-white justify-center   space-y-4 ">
                   <h1 className="md:text-5xl font-semibold " >Hey,</h1>
@@ -23,16 +24,16 @@ const Header = () => {
                     <div>
                          <p className="mb-8">FIND WITH ME</p>
                          <div className=" grid gap-4 grid-cols-3   w-40 ">
-                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                             <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
                             <a href="https://www.linkedin.com/in/codebuildermoni/"> <LuLinkedin className="text-lg  " ></LuLinkedin></a>
                              </h1>
-                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                             <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
                             <a href="https://www.facebook.com/fayhadahmed.monir/"> <LuFacebook className="text-lg  " ></LuFacebook></a>
                              </h1>
-                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                             <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
                             <a href=""> <LuInstagram className="text-lg  " ></LuInstagram></a>
                              </h1>
-                             <h1 className=" hover:-translate-y-1.5 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
+                             <h1 className=" hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-[#1D1F23] w-12 h-12 p-2 rounded-md flex justify-center items-center ">
                             <a href="https://github.com/codebuildermonir/codebuildermonir"> <FaGithub className="text-lg  " ></FaGithub></a>
                              </h1>
                             

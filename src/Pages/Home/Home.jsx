@@ -1,5 +1,6 @@
 import About from "../../Components/About";
 import Header from "../../Components/Header";
+import MySkill from "../../Components/MySkill";
 //import NavBar from "../Nav/NavBar";
 
 
@@ -9,6 +10,7 @@ const Home = () => {
                 {/*  <NavBar></NavBar> */}
                  <Header></Header>
                  <About></About>
+                 <MySkill></MySkill>
                   
             </div>
       );
