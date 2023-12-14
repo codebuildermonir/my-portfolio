@@ -2,6 +2,7 @@ import About from "../../Components/About";
 import Contact from "../../Components/Contact";
 import Header from "../../Components/Header";
 import MySkill from "../../Components/MySkill";
+import Project from "../../Components/Project";
 
 
 
@@ -26,7 +27,7 @@ const Home = () => {
       </a>
       </li>
      <li className="md:text-lg z-40 text-[#FFFFFF] ">
-      <a href="#" className="hover:text-[#FF014F]">
+      <a href="#project" className="hover:text-[#FF014F]">
       Project
       </a>
       </li>
@@ -77,6 +78,9 @@ const Home = () => {
                 </div>
                <div id="skill">
                <MySkill></MySkill>
+               </div>
+               <div id="project" >
+                  <Project></Project>
                </div>
                <div id="contact">
                <Contact></Contact>
